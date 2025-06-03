@@ -65,24 +65,9 @@ Booking management system
 - `nodays`: Number of days
 - `stat`: Booking status
 
-#### 5. `payment`
-Payment processing and tracking
-- `id`: Payment ID (Primary Key)
-- `Name`: Customer name
-- `Email`: Customer email
-- `RoomType`: Room type
-- `Bed`: Bedding type
-- `NoofRoom`: Number of rooms
-- `cin`: Check-in date
-- `cout`: Check-out date
-- `noofdays`: Duration of stay
-- `roomtotal`: Room charges
-- `bedtotal`: Bedding charges
-- `meal`: Meal plan
-- `mealtotal`: Meal charges
-- `finaltotal`: Total amount
 
-#### 6. `staff`
+
+#### 5. `staff`
 Staff management system
 - `id`: Staff ID (Primary Key)
 - `name`: Staff member name
@@ -215,20 +200,5 @@ The system uses MySQL database with the following configuration:
 - [ ] Customer feedback system
 - [ ] Inventory management for amenities
 
-## 🐛 Troubleshooting
 
-### Common Issues
-
-1. **Database Connection Failed**
-   - Check MySQL service is running
-   - Verify credentials in `config.php`
-   - Ensure database `bluebirdhotel` exists
-
-2. **Permission Errors**
-   - Check file permissions for web server access
-   - Ensure database user has proper privileges
-
-3. **Page Not Loading**
-   - Verify web server is running
-   - Check file paths and directory structure
 
